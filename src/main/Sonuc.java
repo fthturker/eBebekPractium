@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Sonuc {
    
         public static  void main(String[] args) {
-            Employee employee1 = new Employee("Burak", 7500, 30, LocalDate.of(2022, 1, 1));
+            Employee employee1 = new Employee("Fatih", 9000, 42, LocalDate.of(2022, 4, 2));
 
             Hesaplayici employeeManager = new Hesaplayici(employee1);
             employeeManager.calculateTax(employee1.getSalary());
@@ -14,7 +14,7 @@ public class Sonuc {
 
             System.out.println(employee1);
 
-            Employee employee2 = new Employee("Torukobyte", 7500, 40, LocalDate.of(2011, 1, 1));
+            Employee employee2 = new Employee("Yavuz", 8000, 36, LocalDate.of(2013, 12, 6));
 
             Hesaplayici employeeManager2 = new Hesaplayici(employee2);
             employeeManager2.calculateTax(employee2.getSalary());
@@ -23,7 +23,7 @@ public class Sonuc {
 
             System.out.println(employee2);
 
-            Employee employee3 = new Employee("Tbyte", 7500, 50, LocalDate.of(2000, 1, 1));
+            Employee employee3 = new Employee("Zeynep", 10000, 50, LocalDate.of(2012, 9, 29));
 
             Hesaplayici employeeManager3 = new Hesaplayici(employee3);
             employeeManager3.calculateTax(employee3.getSalary());
